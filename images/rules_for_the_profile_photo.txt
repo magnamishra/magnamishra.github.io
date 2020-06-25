@@ -1,0 +1,2 @@
+Do not exceed the width of the image by 500px 
+Name the image as profile.jpg

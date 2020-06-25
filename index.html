@@ -1,11 +1,229 @@
-
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="Refresh" content="7"; url="https://drive.google.com/open?id=1vtqPGqwZ2wD3aqGo1Mdp9Jw1GNdPByMU" />
-  </head>
-   <body>
-    <p>Please follow <a href="https://drive.google.com/open?id=1vtqPGqwZ2wD3aqGo1Mdp9Jw1GNdPByMU">this link</a>.</p>
+<html lang="en">
+<head>
+      <title>Magna Mishra | About me</title>
+      <!-- Meta -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Magna Mishra | About me">
+      <meta name="author" content="Magna Mishra"> 	  
+      <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="css/bootstrap.min.css">   
+      <link rel="stylesheet" href="css/font-awesome.css">
+      <link id="theme-style" rel="stylesheet" href="css/index.css">
+</head> 	
+	
+<body ng-app="app">
+    <div class="wrapper" ng-controller="PageCtrl" ng-init="init()">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+				<h1 class="name">Magna Mishra</h1>
+                <h3 class="tagline">Electronics Undergrad<br><a href="https://www.nitrkl.ac.in/">National Institute of Technology, Rourkela, India</a></h3>
+				<h3 class="tagline"><i class="fa fa-envelope"></i><a ng-click="sendMail()"> kmishra5731@gmail.com</a></h3>
+                <img id="photo" class="profile" src="images/profile.jpg" alt="Sudhansu Sekhar rath" />               
+            </div>
+						
+			<div class="interests-container container-block">
+                <h2 class="container-block-title">Interests</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Digital Design</li>
+                    <li>Embedded Systems and IoT</li>                                   
+                </ul>
+            </div>
+						
+			<div class="interests-container container-block">
+                <h2 class="container-block-title">Technical Skills</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Verilog</li>
+					<li>Python</li>                    
+					<li>MATLAB</li> 
+                    <li>C/C++</li>
+                    <li>Xilinx Vivado</li>
+					<li>Arduino</li>                     
+                </ul>
+            </div>						
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Education</h2>                
+				<div class="item">
+                    <h4 class="degree">B. Tech</h4>
+                    <h5 class="meta"><a href="http://www.nitrkl.ac.in/">NIT Rourkela, India</a></h5>
+					<h5 class="meta">Electronics and Instrumentation Engineering</h5>
+                    <div class="time">2018 - Present</div>
+                </div>
+            </div>           
+        </div>
+        
+        <div class="main-wrapper">
+
+            <section class="section summary-section">
+                <h2 class="section-title"><br><br><i class="fa fa-user"></i>Career Profile</h2>
+                <div class="summary">
+                    <p {text-align:justify;}>I take deep interest in the fields of IoT and Digital design. I am presently working on projects related to cryptography and basic applications of IoT. My goal in my undergraduate years is to attain experience and expertise through active involvement in projects in the aforementioned areas.</p>
+                </div>
+            </section>
+            
+            <section class="section experiences-section">
+                <h2 class="section-title"><i class="fa fa-briefcase"></i>PROJECTS</h2>
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Wi-Fi based Home Automation System</h3>
+                            <div class="time">May 2020</div>
+                        </div>                       
+                    <div class="details">
+                        <p {text-align:justify;}>Worked on ESP8266 IoT environment. Hosted a small website on the ESP webserver and used simple HTTP requests to controlvarious actions.</p>  
+                   </div>
+                </div>
+                
+				<div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Bluetooth based device controller</h3>
+                            <div class="time">April 2020</div>
+                        </div>                       
+                    <div class="details">
+                        <p {text-align:justify;}>Used Bluetooth module (HC-05) with Arduino and relays to control appliances and devices from a mobile phone. Learnt a lot about UART serial communication.</p>                  
+					</div>
+                </div>
+				
+				<div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">IR Door Sensor based switch</h3>
+                            <div class="time">April 2020</div>
+                        </div>                       
+                    <div class="details">
+                        <p {text-align:justify;}>Assembled a circuit to control the lighting of a room automatically by sensing the opening and closing of door. Worked with IR sensors, relays and Arduino board.</p>
+					</div>
+                </div>
+				
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Digital circuit design using Verilog</h3>
+                            <div class="time">February 2020 - Present</div>
+                        </div>                       
+                    <div class="details">
+                        <p {text-align:justify;}>Studied Verilog HDL, designed various Verilog modules(RTL), wrote extensive test benches and simulated the designs using Xilinx Vivado. Learnt about the basics of digital VLSI design flow.</p>
+					</div>
+                </div>
+				
+				<div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Design, Simulation and Implementation of Electronic Circuits</h3>
+                            <div class="time">July - November 2019</div>
+                        </div>                       
+                    <div class="details">
+                        <p {text-align:justify;}>Designed various amplifiers, oscillators, an automatic LED control circuit, a battery charge indicator circuit under the guidance of Prof S. Hiremath at NIT, Rourkela.</p>
+					</div>
+                </div>  
+				
+				<div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Railway ticket enquiry model</h3>
+                            <div class="time">January 2018</div>
+                        </div>                       
+                    <div class="details">
+                        <p {text-align:justify;}>Modelled and coded a very fundamental enquiry system in C++ which can track the whereabouts of a given train by asking the user about his/her name and PNR. The program also took into account security details such as OTP and a security question.</p>				
+					</div>
+                </div>
+            </section>
+			
+            
+            <section class="section experiences-section">
+                <h2 class="section-title"><i class="fa fa-briefcase"></i>Trainings and Certifications</h2>
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Embedded Systems with 8051</h3>
+                            <div class="time">April 2020</div>
+                        </div>						
+                        <div class="company">Udemy</div>
+                    </div>                   
+                </div>
+				
+				<div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Machine Learning</h3>
+                            <div class="time">November 2019</div>
+                        </div>						
+                        <div class="company">edX</div>
+                    </div>                   
+                </div>
+				
+				<div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Python</h3>
+                            <div class="time">Sept - Oct, 2019 </div>
+                        </div>						
+                        <div class="company">Udemy</div>
+                    </div>                   
+                </div>
+				
+				<div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">C/C++</h3>
+                            <div class="time">December 2018</div>
+                        </div>						
+                        <div class="company">LIT, Bhubaneswar</div>
+                    </div>                   
+                </div>
+				
+				
+               </section>
+				
+                
+				
+            
+			<section class="section experiences-section">
+                <h2 class="section-title"><i class="fa fa-pencil"></i>Interests</h2>
+                
+                <div class="item">
+                    <div class="meta">
+						<div class="upper-row">
+							<div class="job-title">
+								<p><li>Verilog (with working knowledge of Xilinx Vivado)</li>
+								<li>NI Multisim for circuit simulation </li>
+								<li>Python with hands-on experience with Numpy, Pandas, Statspy and Matplotlib </li>
+								<li>MATLAB </li>
+								<li>Arduino, ESP8266 </li>
+								<li>PCB Design with Eagle </li>
+								<li>C, C++ </li>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div> 				
+				<br>
+				<br>
+				<br>
+				
+			</section>
+			
+         
+        </div>
+    </div>
+ 
+    <footer class="footer">
+        <div class="text-center">
+          <small class="copyright">©Magna Mishra, 2020</small>
+        </div>
+    </footer>
+ 
+         
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.min.js"></script>    
+    <script type="text/javascript" src="js/index.js"></script>            
   </body>
-  
-</html>
+</html> 
+
